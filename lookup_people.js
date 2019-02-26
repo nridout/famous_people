@@ -44,7 +44,7 @@ var findPerson = function (name, callback) {
 findPerson(personName, (err, result) => {
   // Searching ...
   console.log(`Searching ...`);
-  // Handels the error
+  // Handles the error
   if (err) {
     console.log(err);
   }
